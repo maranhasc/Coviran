@@ -1,0 +1,153 @@
+*{
+  box-sizing: border-box;  
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 5px;
+
+}
+
+.absoluta{
+    position: absolute;
+    text-align: center;
+    transition-property: left;
+    transition-duration: 2s;
+}
+.z-1{
+    z-index: -1;
+}
+.z1{
+    z-index: 1;
+}
+header{
+    background-color: #285b35;
+    padding-top: 10px;
+    padding-bottom: 10px;
+        color: white;
+
+}
+#desplazamiento { 
+    position: absolute; 
+    left: 20px;
+    top: 20px; 
+    transition-property: left;
+    transition-duration: 2s; 
+ } 
+.row{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.col-3{
+    width: 32%;
+    display: flex;
+
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 0 0 20px gainsboro;
+    text-align: center;
+    font-size: 26px;
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.card img:hover{
+    opacity: 0.5;
+
+}
+
+.py-20{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+ nav ul,  nav li {
+    padding: 0;
+    margin: 0;
+    color: #6c6c6c;
+}
+ nav li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    margin-left: 20px;
+}
+ nav li:hover {
+    color: #009933;
+}
+ nav li:hover li {
+    border-top: none;
+}
+ nav li li:hover {
+    background-color: #d1cece;
+}
+ nav li li {
+    margin-left: 0;
+    padding: 10px;
+    width: 240px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: solid 1px #6c6c6c;
+}
+ nav li li img{
+    margin-right: 10px;
+}
+ nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 240px;
+    padding-top: 16px;
+}
+
+ nav ul li:hover ul {
+    display: block;
+}
+
+.verde{
+    background-color: #009933;
+    color: white;
+    
+
+
+}
+.col-4{
+    width: 23%;
+    display: flex;
+    border-bottom: solid 1px gainsboro;
+
+
+}
+.patrocinadores{
+    background-color: #295b35;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+}
+.texto{
+    margin-left: 20px;
+
+}
+.img{
+    text-align: center;
+}
